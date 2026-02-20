@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国产黄色网站</title>
+    <style>
+        /* 全局重置与基础设置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* 优化后的色彩变量 - 更协调的中式配色 */
+            --yaohuang: #d0deaa;
+            --ganlanhuanglv: #bec936;
+            --huaihuahuanglv: #d2d97a;
+            --diehuang: #e2d849;
+            --foshouhuang: #fed71a;
+            --xiangjiaohuang: #e4bf11;
+            --youcaihuahuang: #fbda41;
+            --qiukuihuang: #eed045;
+            --youhuang: #f1ca17;
+            --caohuang: #d2b42c;
+            --liuhuahuang: #f2ce2b;
+            --jianghuang: #e2c027;
+            --jinguahuang: #fcd217;
+            --maiganhuang: #f8df70;
+            --haohuang: #dfc243;
+            --molihuang: #f8df72;
+            --tenghuang: #ffd111;
+            --mangguohuang: #ddc871;
+            --ningmenghuang: #fcd337;
+            --xiangrikuihuang: #fecc11;
+            --suxinhuang: #fccb16;
+            --ruyahuang: #ffc90c;
+            --kuishanhuang: #f8d86a;
+            --dadouhuang: #fbcd31;
+            --jinzhanhuang: #fcc307;
+            --huanglianhuang: #fcc515;
+            --xingrenhuang: #f7e8aa;
+            --guhuang: #e8b004;
+            --muguahuang: #f9c116;
+            --danjianhuang: #f9d770;
+            --yalihuang: #fbc82f;
+            --yingwuguanhuang: #f6c430;
+            --qianlaohuang: #f9bd10;
+            --danmihuang: #f9d367;
+            --jiehuang: #d9a40e;
+            --zhizihuang: #ebb10d;
+            --miehuang: #f7de98;
+            --chaomihuang: #f4ce69;
+            --hupohuang: #feba07;
+            --youhuang2: #fcb70a;
+            --xiangyahuang: #f0d695;
+            --douzhihuang: #f8e8c1;
+            --tuhuang: #d6a01d;
+            --xiangshuimeiguihuang: #f7da94;
+            --hupihuang: #eaad1a;
+            --jidanhuang: #fbb612;
+            --chushuxinghuang: #f8bc31;
+            --shanjihuang: #b78b26;
+            --shashihuang: #e5b751;
+            --gancaohuang: #f3bf4c;
+            --ezhanghuang: #fbb929;
+            --maiyatanghuang: #f9d27d;
+            --laohuang: #f6dead;
+            --chenpihuang: #fca104;
+            --laiyanglihuang: #815f25;
+            --pipahuang: #fca106;
+            --jinyehuang: #ffa60f;
+            --canghuang: #806332;
+            --guibeihuang: #826b48;
+            --xionghuang: #ff9900;
+            --mihuang: #fbb957;
+            --fengfanhuang: #dc9123;
+            --jinyinghuang: #f4a83a;
+            --ruanmuhuang: #de9e44;
+            --liuehuang: #f9a633;
+            --daimaohuang: #daa45a;
+            --wanshoujuhuang: #fb8b05;
+            --dankehuang: #f8c387;
+            --xinghuang: #f28e16;
+            --beiguahuang: #fc8c23;
+            --jinhuang: #f26b1f;
+            --dantuhuang: #8c4b31;
+            
+            /* 基础配色优化 */
+            --bg-primary: #faf6ed;
+            --text-primary: #5a4b32;
+            --text-secondary: #8a7b60;
+            --border-light: #e8e0d0;
+            --shadow-soft: 0 4px 20px rgba(210, 170, 80, 0.08);
+            --shadow-hover: 0 8px 30px rgba(210, 170, 80, 0.15);
+        }
+
+        body {
+            font-family: "Noto Serif SC", "SimSun", "Microsoft YaHei", serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        /* 粒子流动背景 - 优化视觉效果 */
+        #particle-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            background: radial-gradient(circle at 50% 50%, #fffbf0 0%, #f8f0d7 100%);
+        }
+
+        /* 容器通用样式 - 优化间距和响应式 */
+        .content-container {
+            position: relative;
+            z-index: 10;
+            width: 92%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* 导航栏 - 优化设计 */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            padding: 20px 0;
+            box-shadow: var(--shadow-soft);
+            position: sticky;
+            top: 0;
+            z-index: 99;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .nav-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--tuhuang);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            letter-spacing: 1px;
+        }
+
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--tenghuang), var(--jinhuang));
+            border-radius: 50%;
+            animation: pulse 4s ease-in-out infinite;
+            box-shadow: 0 2px 10px rgba(255, 209, 17, 0.3);
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.08); opacity: 0.9; }
+        }
+
+        /* 头部banner - 大幅优化视觉效果 */
+        header {
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(255, 209, 17, 0.9), rgba(242, 107, 31, 0.8));
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.2) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.15) 0%, transparent 40%),
+                linear-gradient(135deg, var(--tenghuang), var(--jinhuang));
+            background-size: 200% 200%;
+            animation: bg-flow 15s ease infinite;
+            color: white;
+            margin-bottom: 80px;
+            border-radius: 0 0 50% 50% / 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path fill="%23ffffff" fill-opacity="0.1" d="M30,10 Q50,0 70,10 Q90,20 90,40 Q90,60 70,70 Q50,80 30,70 Q10,60 10,40 Q10,20 30,10 Z"/></svg>');
+            background-size: 200px;
+            opacity: 0.2;
+        }
+
+        @keyframes bg-flow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .banner-title {
+            font-size: clamp(3rem, 10vw, 5rem);
+            margin-bottom: 25px;
+            text-shadow: 2px 2px 15px rgba(146, 64, 14, 0.2);
+            letter-spacing: 3px;
+            font-weight: 800;
+            position: relative;
+        }
+
+        .banner-title::after {
+            content: '';
+            display: block;
+            width: 120px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.8);
+            margin: 20px auto 0;
+            border-radius: 2px;
+        }
+
+        .banner-desc {
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            max-width: 800px;
+            opacity: 0.95;
+            line-height: 1.8;
+            letter-spacing: 1px;
+            padding: 0 20px;
+        }
+
+        /* 黄色系展示区 - 优化布局和层次 */
+        .yellow-gallery {
+            padding: 60px 0 100px;
+        }
+
+        .gallery-title {
+            font-size: 32px;
+            color: var(--tuhuang);
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .gallery-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--diehuang), var(--jinhuang));
+            border-radius: 2px;
+        }
+
+        /* 黄色卡片网格 - 优化响应式和间距 */
+        .yellow-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 35px;
+        }
+
+        /* 黄色卡片 - 全面优化视觉效果 */
+        .yellow-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: card-fade-in 0.8s ease forwards;
+            border: 1px solid var(--border-light);
+        }
+
+        /* 卡片依次渐入 - 优化动画节奏 */
+        .yellow-card {
+            animation-delay: calc(0.1s * var(--card-index));
+        }
+
+        @keyframes card-fade-in {
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+
+        .yellow-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: var(--shadow-hover);
+        }
+
+        /* 颜色块 - 优化流光效果和质感 */
+        .color-block {
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .color-block::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 40%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+            transform: skewX(-25deg);
+            animation: color-shine 8s ease infinite;
+        }
+
+        .yellow-card:hover .color-block {
+            filter: brightness(1.05);
+        }
+
+        @keyframes color-shine {
+            0%, 100% { left: -100%; }
+            50% { left: 200%; }
+        }
+
+        /* 颜色信息 - 优化排版和视觉层次 */
+        .color-info {
+            padding: 25px;
+        }
+
+        .color-name {
+            font-size: 22px;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+
+        .color-name::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--tuhuang);
+        }
+
+        .color-code {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin: 15px 0;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--border-light);
+            font-family: "Consolas", "Monaco", monospace;
+        }
+
+        .color-desc {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* 页脚 - 优化设计 */
+        footer {
+            background: linear-gradient(135deg, var(--tuhuang), var(--chenpihuang));
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 60px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .footer-text {
+            font-size: 15px;
+            opacity: 0.9;
+            letter-spacing: 1px;
+        }
+
+        /* 响应式优化 */
+        @media (max-width: 768px) {
+            .yellow-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            
+            header {
+                height: 60vh;
+                border-radius: 0 0 30% 30% / 10px;
+            }
+            
+            .banner-title {
+                font-size: clamp(2.2rem, 8vw, 3.5rem);
+            }
+            
+            .gallery-title {
+                font-size: 26px;
+            }
+            
+            .color-block {
+                height: 180px;
+            }
+        }
+
+        /* 滚动条美化 */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--tuhuang);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--chenpihuang);
+        }
+    </style>
+</head>
+<body>
+    <!-- 粒子流动背景容器 -->
+    <div id="particle-container"></div>
+
+    <!-- 导航栏 -->
+    <nav>
+        <div class="content-container nav-wrap">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <span>国产黄色网站</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 头部Banner -->
+    <header>
+        <div class="content-container">
+            <h1 class="banner-title">国产黄色谱系</h1>
+            <p class="banner-desc">黄者，中和之色，自然之性，万世不易也</p>
+        </div>
+    </header>
+
+    <!-- 黄色系展示区 -->
+    <section class="yellow-gallery">
+        <div class="content-container">
+            <h2 class="gallery-title">传统黄色谱系</h2>
+            <div class="yellow-grid">
+                <!-- 姚黄 -->
+                <div class="yellow-card" style="--card-index: 1;">
+                    <div class="color-block" style="background-color: var(--yaohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">姚黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #d0deaa</span>
+                            <span>RGB: 208,222,170</span>
+                        </div>
+                        <p class="color-desc">牡丹名品，被誉为“花王”，其色淡雅温润。</p>
+                    </div>
+                </div>
+
+                <!-- 橄榄黄绿 -->
+                <div class="yellow-card" style="--card-index: 2;">
+                    <div class="color-block" style="background-color: var(--ganlanhuanglv);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">橄榄黄绿</h3>
+                        <div class="color-code">
+                            <span>HEX: #bec936</span>
+                            <span>RGB: 190,201,54</span>
+                        </div>
+                        <p class="color-desc">如橄榄果实般的黄绿色，沉稳而富有生机。</p>
+                    </div>
+                </div>
+
+                <!-- 槐花黄绿 -->
+                <div class="yellow-card" style="--card-index: 3;">
+                    <div class="color-block" style="background-color: var(--huaihuahuanglv);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">槐花黄绿</h3>
+                        <div class="color-code">
+                            <span>HEX: #d2d97a</span>
+                            <span>RGB: 210,217,122</span>
+                        </div>
+                        <p class="color-desc">槐花初绽时的黄绿色，清新自然。</p>
+                    </div>
+                </div>
+
+                <!-- 蝶黄 -->
+                <div class="yellow-card" style="--card-index: 4;">
+                    <div class="color-block" style="background-color: var(--diehuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">蝶黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #e2d849</span>
+                            <span>RGB: 226,216,73</span>
+                        </div>
+                        <p class="color-desc">蝴蝶翅膀般的亮黄色，轻盈灵动。</p>
+                    </div>
+                </div>
+
+                <!-- 佛手黄 -->
+                <div class="yellow-card" style="--card-index: 5;">
+                    <div class="color-block" style="background-color: var(--foshouhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">佛手黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fed71a</span>
+                            <span>RGB: 254,215,26</span>
+                        </div>
+                        <p class="color-desc">佛手柑成熟时的金黄色，香气馥郁。</p>
+                    </div>
+                </div>
+
+                <!-- 香蕉黄 -->
+                <div class="yellow-card" style="--card-index: 6;">
+                    <div class="color-block" style="background-color: var(--xiangjiaohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">香蕉黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #e4bf11</span>
+                            <span>RGB: 228,191,17</span>
+                        </div>
+                        <p class="color-desc">成熟香蕉的暖黄色，饱满诱人。</p>
+                    </div>
+                </div>
+
+                <!-- 油菜花黄 -->
+                <div class="yellow-card" style="--card-index: 7;">
+                    <div class="color-block" style="background-color: var(--youcaihuahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">油菜花黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fbda41</span>
+                            <span>RGB: 251,218,65</span>
+                        </div>
+                        <p class="color-desc">春日油菜花田的明黄色，灿烂夺目。</p>
+                    </div>
+                </div>
+
+                <!-- 秋葵黄 -->
+                <div class="yellow-card" style="--card-index: 8;">
+                    <div class="color-block" style="background-color: var(--qiukuihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">秋葵黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #eed045</span>
+                            <span>RGB: 238,208,69</span>
+                        </div>
+                        <p class="color-desc">秋葵果实的嫩黄色，清新爽口。</p>
+                    </div>
+                </div>
+
+                <!-- 柚黄 -->
+                <div class="yellow-card" style="--card-index: 9;">
+                    <div class="color-block" style="background-color: var(--youhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">柚黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f1ca17</span>
+                            <span>RGB: 241,202,23</span>
+                        </div>
+                        <p class="color-desc">柚子果皮的亮黄色，果香浓郁。</p>
+                    </div>
+                </div>
+
+                <!-- 草黄 -->
+                <div class="yellow-card" style="--card-index: 10;">
+                    <div class="color-block" style="background-color: var(--caohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">草黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #d2b42c</span>
+                            <span>RGB: 210,180,44</span>
+                        </div>
+                        <p class="color-desc">秋日枯草的黄色，质朴自然。</p>
+                    </div>
+                </div>
+
+                <!-- 硫华黄 -->
+                <div class="yellow-card" style="--card-index: 11;">
+                    <div class="color-block" style="background-color: var(--liuhuahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">硫华黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f2ce2b</span>
+                            <span>RGB: 242,206,43</span>
+                        </div>
+                        <p class="color-desc">硫磺的亮黄色，色泽鲜明。</p>
+                    </div>
+                </div>
+
+                <!-- 姜黄 -->
+                <div class="yellow-card" style="--card-index: 12;">
+                    <div class="color-block" style="background-color: var(--jianghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">姜黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #e2c027</span>
+                            <span>RGB: 226,192,39</span>
+                        </div>
+                        <p class="color-desc">干姜的深黄色，沉稳厚重。</p>
+                    </div>
+                </div>
+
+                <!-- 金瓜黄 -->
+                <div class="yellow-card" style="--card-index: 13;">
+                    <div class="color-block" style="background-color: var(--jinguahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">金瓜黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fcd217</span>
+                            <span>RGB: 252,210,23</span>
+                        </div>
+                        <p class="color-desc">南瓜成熟时的金黄色，象征丰收。</p>
+                    </div>
+                </div>
+
+                <!-- 麦秆黄 -->
+                <div class="yellow-card" style="--card-index: 14;">
+                    <div class="color-block" style="background-color: var(--maiganhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">麦秆黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f8df70</span>
+                            <span>RGB: 248,223,112</span>
+                        </div>
+                        <p class="color-desc">麦秆的淡黄色，充满田园气息。</p>
+                    </div>
+                </div>
+
+                <!-- 蒿黄 -->
+                <div class="yellow-card" style="--card-index: 15;">
+                    <div class="color-block" style="background-color: var(--haohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">蒿黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #dfc243</span>
+                            <span>RGB: 223,194,67</span>
+                        </div>
+                        <p class="color-desc">青蒿的黄绿色，带有草本的清新。</p>
+                    </div>
+                </div>
+
+                <!-- 茉莉黄 -->
+                <div class="yellow-card" style="--card-index: 16;">
+                    <div class="color-block" style="background-color: var(--molihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">茉莉黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f8df72</span>
+                            <span>RGB: 248,223,114</span>
+                        </div>
+                        <p class="color-desc">茉莉花蕊的淡黄色，淡雅芬芳。</p>
+                    </div>
+                </div>
+
+                <!-- 藤黄 -->
+                <div class="yellow-card" style="--card-index: 17;">
+                    <div class="color-block" style="background-color: var(--tenghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">藤黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #ffd111</span>
+                            <span>RGB: 255,209,17</span>
+                        </div>
+                        <p class="color-desc">藤黄树脂的亮黄色，是中国画常用颜料。</p>
+                    </div>
+                </div>
+
+                <!-- 芒果黄 -->
+                <div class="yellow-card" style="--card-index: 18;">
+                    <div class="color-block" style="background-color: var(--mangguohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">芒果黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #ddc871</span>
+                            <span>RGB: 221,200,113</span>
+                        </div>
+                        <p class="color-desc">成熟芒果的暖黄色，香甜诱人。</p>
+                    </div>
+                </div>
+
+                <!-- 柠檬黄 -->
+                <div class="yellow-card" style="--card-index: 19;">
+                    <div class="color-block" style="background-color: var(--ningmenghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">柠檬黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fcd337</span>
+                            <span>RGB: 252,211,55</span>
+                        </div>
+                        <p class="color-desc">柠檬果皮的亮黄色，清新醒目。</p>
+                    </div>
+                </div>
+
+                <!-- 向日葵黄 -->
+                <div class="yellow-card" style="--card-index: 20;">
+                    <div class="color-block" style="background-color: var(--xiangrikuihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">向日葵黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fecc11</span>
+                            <span>RGB: 254,204,17</span>
+                        </div>
+                        <p class="color-desc">向日葵花盘的金黄色，充满阳光活力。</p>
+                    </div>
+                </div>
+
+                <!-- 以下为剩余卡片，按相同格式添加 --card-index 属性 -->
+                <!-- 素馨黄 -->
+                <div class="yellow-card" style="--card-index: 21;">
+                    <div class="color-block" style="background-color: var(--suxinhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">素馨黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fccb16</span>
+                            <span>RGB: 252,203,22</span>
+                        </div>
+                        <p class="color-desc">素馨花的淡黄色，淡雅脱俗。</p>
+                    </div>
+                </div>
+
+                <!-- 乳鸭黄 -->
+                <div class="yellow-card" style="--card-index: 22;">
+                    <div class="color-block" style="background-color: var(--ruyahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">乳鸭黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #ffc90c</span>
+                            <span>RGB: 255,201,12</span>
+                        </div>
+                        <p class="color-desc">雏鸭绒毛的嫩黄色，娇小可爱。</p>
+                    </div>
+                </div>
+
+                <!-- 葵扇黄 -->
+                <div class="yellow-card" style="--card-index: 23;">
+                    <div class="color-block" style="background-color: var(--kuishanhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">葵扇黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f8d86a</span>
+                            <span>RGB: 248,216,106</span>
+                        </div>
+                        <p class="color-desc">葵扇的淡黄色，古朴雅致。</p>
+                    </div>
+                </div>
+
+                <!-- 大豆黄 -->
+                <div class="yellow-card" style="--card-index: 24;">
+                    <div class="color-block" style="background-color: var(--dadouhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">大豆黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fbcd31</span>
+                            <span>RGB: 251,205,49</span>
+                        </div>
+                        <p class="color-desc">大豆的黄色，象征五谷丰登。</p>
+                    </div>
+                </div>
+
+                <!-- 金盏黄 -->
+                <div class="yellow-card" style="--card-index: 25;">
+                    <div class="color-block" style="background-color: var(--jinzhanhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">金盏黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fcc307</span>
+                            <span>RGB: 252,195,7</span>
+                        </div>
+                        <p class="color-desc">金盏菊的亮黄色，明艳动人。</p>
+                    </div>
+                </div>
+
+                <!-- 黄连黄 -->
+                <div class="yellow-card" style="--card-index: 26;">
+                    <div class="color-block" style="background-color: var(--huanglianhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">黄连黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fcc515</span>
+                            <span>RGB: 252,197,21</span>
+                        </div>
+                        <p class="color-desc">黄连根茎的黄色，是重要的中药材。</p>
+                    </div>
+                </div>
+
+                <!-- 杏仁黄 -->
+                <div class="yellow-card" style="--card-index: 27;">
+                    <div class="color-block" style="background-color: var(--xingrenhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">杏仁黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f7e8aa</span>
+                            <span>RGB: 247,232,170</span>
+                        </div>
+                        <p class="color-desc">杏仁的淡黄色，温润细腻。</p>
+                    </div>
+                </div>
+
+                <!-- 谷黄 -->
+                <div class="yellow-card" style="--card-index: 28;">
+                    <div class="color-block" style="background-color: var(--guhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">谷黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #e8b004</span>
+                            <span>RGB: 232,176,4</span>
+                        </div>
+                        <p class="color-desc">稻谷成熟时的金黄色，是丰收的象征。</p>
+                    </div>
+                </div>
+
+                <!-- 木瓜黄 -->
+                <div class="yellow-card" style="--card-index: 29;">
+                    <div class="color-block" style="background-color: var(--muguahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">木瓜黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f9c116</span>
+                            <span>RGB: 249,193,22</span>
+                        </div>
+                        <p class="color-desc">木瓜成熟时的暖黄色，果香浓郁。</p>
+                    </div>
+                </div>
+
+                <!-- 淡茧黄 -->
+                <div class="yellow-card" style="--card-index: 30;">
+                    <div class="color-block" style="background-color: var(--danjianhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">淡茧黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f9d770</span>
+                            <span>RGB: 249,215,112</span>
+                        </div>
+                        <p class="color-desc">蚕茧的淡黄色，柔和雅致。</p>
+                    </div>
+                </div>
+
+                <!-- 雅梨黄 -->
+                <div class="yellow-card" style="--card-index: 31;">
+                    <div class="color-block" style="background-color: var(--yalihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">雅梨黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fbc82f</span>
+                            <span>RGB: 251,200,47</span>
+                        </div>
+                        <p class="color-desc">雅梨的淡黄色，清新爽口。</p>
+                    </div>
+                </div>
+
+                <!-- 鹦鹉冠黄 -->
+                <div class="yellow-card" style="--card-index: 32;">
+                    <div class="color-block" style="background-color: var(--yingwuguanhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">鹦鹉冠黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f6c430</span>
+                            <span>RGB: 246,196,48</span>
+                        </div>
+                        <p class="color-desc">鹦鹉头顶的亮黄色，鲜艳夺目。</p>
+                    </div>
+                </div>
+
+                <!-- 浅烙黄 -->
+                <div class="yellow-card" style="--card-index: 33;">
+                    <div class="color-block" style="background-color: var(--qianlaohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">浅烙黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f9bd10</span>
+                            <span>RGB: 249,189,16</span>
+                        </div>
+                        <p class="color-desc">浅烙后的黄色，带有温度感。</p>
+                    </div>
+                </div>
+
+                <!-- 淡密黄 -->
+                <div class="yellow-card" style="--card-index: 34;">
+                    <div class="color-block" style="background-color: var(--danmihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">淡密黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f9d367</span>
+                            <span>RGB: 249,211,103</span>
+                        </div>
+                        <p class="color-desc">淡蜜的黄色，温润甜美。</p>
+                    </div>
+                </div>
+
+                <!-- 芥黄 -->
+                <div class="yellow-card" style="--card-index: 35;">
+                    <div class="color-block" style="background-color: var(--jiehuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">芥黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #d9a40e</span>
+                            <span>RGB: 217,164,14</span>
+                        </div>
+                        <p class="color-desc">芥末的黄色，辛辣而鲜明。</p>
+                    </div>
+                </div>
+
+                <!-- 栀子黄 -->
+                <div class="yellow-card" style="--card-index: 36;">
+                    <div class="color-block" style="background-color: var(--zhizihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">栀子黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #ebb10d</span>
+                            <span>RGB: 235,177,13</span>
+                        </div>
+                        <p class="color-desc">栀子果实的黄色，是传统的天然染料。</p>
+                    </div>
+                </div>
+
+                <!-- 篾黄 -->
+                <div class="yellow-card" style="--card-index: 37;">
+                    <div class="color-block" style="background-color: var(--miehuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">篾黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f7de98</span>
+                            <span>RGB: 247,222,152</span>
+                        </div>
+                        <p class="color-desc">竹篾的淡黄色，质朴自然。</p>
+                    </div>
+                </div>
+
+                <!-- 炒米黄 -->
+                <div class="yellow-card" style="--card-index: 38;">
+                    <div class="color-block" style="background-color: var(--chaomihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">炒米黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f4ce69</span>
+                            <span>RGB: 244,206,105</span>
+                        </div>
+                        <p class="color-desc">炒米的焦黄色，香脆可口。</p>
+                    </div>
+                </div>
+
+                <!-- 琥珀黄 -->
+                <div class="yellow-card" style="--card-index: 39;">
+                    <div class="color-block" style="background-color: var(--hupohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">琥珀黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #feba07</span>
+                            <span>RGB: 254,186,7</span>
+                        </div>
+                        <p class="color-desc">琥珀的金黄色，温润而有光泽。</p>
+                    </div>
+                </div>
+
+                <!-- 鼬黄 -->
+                <div class="yellow-card" style="--card-index: 40;">
+                    <div class="color-block" style="background-color: var(--youhuang2);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">鼬黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fcb70a</span>
+                            <span>RGB: 252,183,10</span>
+                        </div>
+                        <p class="color-desc">黄鼬皮毛的黄色，顺滑而有光泽。</p>
+                    </div>
+                </div>
+
+                <!-- 象牙黄 -->
+                <div class="yellow-card" style="--card-index: 41;">
+                    <div class="color-block" style="background-color: var(--xiangyahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">象牙黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f0d695</span>
+                            <span>RGB: 240,214,149</span>
+                        </div>
+                        <p class="color-desc">象牙的淡黄色，温润细腻。</p>
+                    </div>
+                </div>
+
+                <!-- 豆汁黄 -->
+                <div class="yellow-card" style="--card-index: 42;">
+                    <div class="color-block" style="background-color: var(--douzhihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">豆汁黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f8e8c1</span>
+                            <span>RGB: 248,232,193</span>
+                        </div>
+                        <p class="color-desc">豆汁的淡黄色，醇厚浓郁。</p>
+                    </div>
+                </div>
+
+                <!-- 土黄 -->
+                <div class="yellow-card" style="--card-index: 43;">
+                    <div class="color-block" style="background-color: var(--tuhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">土黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #d6a01d</span>
+                            <span>RGB: 214,160,29</span>
+                        </div>
+                        <p class="color-desc">黄土地的本色，象征大地与丰收。</p>
+                    </div>
+                </div>
+
+                <!-- 香水玫瑰黄 -->
+                <div class="yellow-card" style="--card-index: 44;">
+                    <div class="color-block" style="background-color: var(--xiangshuimeiguihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">香水玫瑰黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f7da94</span>
+                            <span>RGB: 247,218,148</span>
+                        </div>
+                        <p class="color-desc">黄色玫瑰的暖黄色，浪漫而优雅。</p>
+                    </div>
+                </div>
+
+                <!-- 虎皮黄 -->
+                <div class="yellow-card" style="--card-index: 45;">
+                    <div class="color-block" style="background-color: var(--hupihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">虎皮黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #eaad1a</span>
+                            <span>RGB: 234,173,26</span>
+                        </div>
+                        <p class="color-desc">虎皮的黄色，威严而有力量。</p>
+                    </div>
+                </div>
+
+                <!-- 鸡蛋黄 -->
+                <div class="yellow-card" style="--card-index: 46;">
+                    <div class="color-block" style="background-color: var(--jidanhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">鸡蛋黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fbb612</span>
+                            <span>RGB: 251,182,18</span>
+                        </div>
+                        <p class="color-desc">鸡蛋黄的亮黄色，营养丰富。</p>
+                    </div>
+                </div>
+
+                <!-- 初熟杏黄 -->
+                <div class="yellow-card" style="--card-index: 47;">
+                    <div class="color-block" style="background-color: var(--chushuxinghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">初熟杏黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f8bc31</span>
+                            <span>RGB: 248,188,49</span>
+                        </div>
+                        <p class="color-desc">杏子初熟时的黄色，酸甜可口。</p>
+                    </div>
+                </div>
+
+                <!-- 山鸡黄 -->
+                <div class="yellow-card" style="--card-index: 48;">
+                    <div class="color-block" style="background-color: var(--shanjihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">山鸡黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #b78b26</span>
+                            <span>RGB: 183,139,38</span>
+                        </div>
+                        <p class="color-desc">山鸡羽毛的黄色，斑斓而美丽。</p>
+                    </div>
+                </div>
+
+                <!-- 沙石黄 -->
+                <div class="yellow-card" style="--card-index: 49;">
+                    <div class="color-block" style="background-color: var(--shashihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">沙石黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #e5b751</span>
+                            <span>RGB: 229,183,81</span>
+                        </div>
+                        <p class="color-desc">沙石的黄色，粗犷而自然。</p>
+                    </div>
+                </div>
+
+                <!-- 甘草黄 -->
+                <div class="yellow-card" style="--card-index: 50;">
+                    <div class="color-block" style="background-color: var(--gancaohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">甘草黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f3bf4c</span>
+                            <span>RGB: 243,191,76</span>
+                        </div>
+                        <p class="color-desc">甘草根茎的黄色，是重要的中药材。</p>
+                    </div>
+                </div>
+
+                <!-- 鹅掌黄 -->
+                <div class="yellow-card" style="--card-index: 51;">
+                    <div class="color-block" style="background-color: var(--ezhanghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">鹅掌黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fbb929</span>
+                            <span>RGB: 251,185,41</span>
+                        </div>
+                        <p class="color-desc">鹅掌的黄色，温暖而柔软。</p>
+                    </div>
+                </div>
+
+                <!-- 麦芽糖黄 -->
+                <div class="yellow-card" style="--card-index: 52;">
+                    <div class="color-block" style="background-color: var(--maiyatanghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">麦芽糖黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f9d27d</span>
+                            <span>RGB: 249,210,125</span>
+                        </div>
+                        <p class="color-desc">麦芽糖的淡黄色，香甜软糯。</p>
+                    </div>
+                </div>
+
+                <!-- 酪黄 -->
+                <div class="yellow-card" style="--card-index: 53;">
+                    <div class="color-block" style="background-color: var(--laohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">酪黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f6dead</span>
+                            <span>RGB: 246,222,173</span>
+                        </div>
+                        <p class="color-desc">奶酪的淡黄色，醇厚浓郁。</p>
+                    </div>
+                </div>
+
+                <!-- 橙皮黄 -->
+                <div class="yellow-card" style="--card-index: 54;">
+                    <div class="color-block" style="background-color: var(--chenpihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">橙皮黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fca104</span>
+                            <span>RGB: 252,161,4</span>
+                        </div>
+                        <p class="color-desc">橙皮的亮黄色，清新醒目。</p>
+                    </div>
+                </div>
+
+                <!-- 莱阳梨黄 -->
+                <div class="yellow-card" style="--card-index: 55;">
+                    <div class="color-block" style="background-color: var(--laiyanglihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">莱阳梨黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #815f25</span>
+                            <span>RGB: 129,95,37</span>
+                        </div>
+                        <p class="color-desc">莱阳梨的深黄色，甘甜多汁。</p>
+                    </div>
+                </div>
+
+                <!-- 枇杷黄 -->
+                <div class="yellow-card" style="--card-index: 56;">
+                    <div class="color-block" style="background-color: var(--pipahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">枇杷黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fca106</span>
+                            <span>RGB: 252,161,6</span>
+                        </div>
+                        <p class="color-desc">枇杷成熟时的金黄色，香甜可口。</p>
+                    </div>
+                </div>
+
+                <!-- 金叶黄 -->
+                <div class="yellow-card" style="--card-index: 57;">
+                    <div class="color-block" style="background-color: var(--jinyehuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">金叶黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #ffa60f</span>
+                            <span>RGB: 255,166,15</span>
+                        </div>
+                        <p class="color-desc">秋日金叶的亮黄色，绚烂夺目。</p>
+                    </div>
+                </div>
+
+                <!-- 苍黄 -->
+                <div class="yellow-card" style="--card-index: 58;">
+                    <div class="color-block" style="background-color: var(--canghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">苍黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #806332</span>
+                            <span>RGB: 128,99,50</span>
+                        </div>
+                        <p class="color-desc">苍黄的深黄色，带有岁月的沧桑感。</p>
+                    </div>
+                </div>
+
+                <!-- 龟背黄 -->
+                <div class="yellow-card" style="--card-index: 59;">
+                    <div class="color-block" style="background-color: var(--guibeihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">龟背黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #826b48</span>
+                            <span>RGB: 130,107,72</span>
+                        </div>
+                        <p class="color-desc">龟背的黄色，古朴而有质感。</p>
+                    </div>
+                </div>
+
+                <!-- 雄黄 -->
+                <div class="yellow-card" style="--card-index: 60;">
+                    <div class="color-block" style="background-color: var(--xionghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">雄黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #ff9900</span>
+                            <span>RGB: 255,153,0</span>
+                        </div>
+                        <p class="color-desc">雄黄矿石的亮黄色，是传统的中药材和颜料。</p>
+                    </div>
+                </div>
+
+                <!-- 蜜黄 -->
+                <div class="yellow-card" style="--card-index: 61;">
+                    <div class="color-block" style="background-color: var(--mihuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">蜜黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fbb957</span>
+                            <span>RGB: 251,185,87</span>
+                        </div>
+                        <p class="color-desc">蜂蜜的暖黄色，温润甜美。</p>
+                    </div>
+                </div>
+
+                <!-- 风帆黄 -->
+                <div class="yellow-card" style="--card-index: 62;">
+                    <div class="color-block" style="background-color: var(--fengfanhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">风帆黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #dc9123</span>
+                            <span>RGB: 220,145,35</span>
+                        </div>
+                        <p class="color-desc">船帆的黄色，充满力量与希望。</p>
+                    </div>
+                </div>
+
+                <!-- 金莺黄 -->
+                <div class="yellow-card" style="--card-index: 63;">
+                    <div class="color-block" style="background-color: var(--jinyinghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">金莺黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f4a83a</span>
+                            <span>RGB: 244,168,58</span>
+                        </div>
+                        <p class="color-desc">金莺羽毛的亮黄色，清脆灵动。</p>
+                    </div>
+                </div>
+
+                <!-- 软木黄 -->
+                <div class="yellow-card" style="--card-index: 64;">
+                    <div class="color-block" style="background-color: var(--ruanmuhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">软木黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #de9e44</span>
+                            <span>RGB: 222,158,68</span>
+                        </div>
+                        <p class="color-desc">软木的暖黄色，质朴有质感。</p>
+                    </div>
+                </div>
+
+                <!-- 榴萼黄 -->
+                <div class="yellow-card" style="--card-index: 65;">
+                    <div class="color-block" style="background-color: var(--liuehuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">榴萼黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f9a633</span>
+                            <span>RGB: 249,166,51</span>
+                        </div>
+                        <p class="color-desc">石榴花萼的黄色，明艳动人。</p>
+                    </div>
+                </div>
+
+                <!-- 玳瑁黄 -->
+                <div class="yellow-card" style="--card-index: 66;">
+                    <div class="color-block" style="background-color: var(--daimaohuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">玳瑁黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #daa45a</span>
+                            <span>RGB: 218,164,90</span>
+                        </div>
+                        <p class="color-desc">玳瑁壳的黄棕色，华贵而典雅。</p>
+                    </div>
+                </div>
+
+                <!-- 万寿菊黄 -->
+                <div class="yellow-card" style="--card-index: 67;">
+                    <div class="color-block" style="background-color: var(--wanshoujuhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">万寿菊黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fb8b05</span>
+                            <span>RGB: 251,139,5</span>
+                        </div>
+                        <p class="color-desc">万寿菊的橙黄色，吉祥而热烈。</p>
+                    </div>
+                </div>
+
+                <!-- 淡壳黄 -->
+                <div class="yellow-card" style="--card-index: 68;">
+                    <div class="color-block" style="background-color: var(--dankehuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">淡壳黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f8c387</span>
+                            <span>RGB: 248,195,135</span>
+                        </div>
+                        <p class="color-desc">贝壳内层的淡黄色，温润有光泽。</p>
+                    </div>
+                </div>
+
+                <!-- 杏黄 -->
+                <div class="yellow-card" style="--card-index: 69;">
+                    <div class="color-block" style="background-color: var(--xinghuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">杏黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f28e16</span>
+                            <span>RGB: 242,142,22</span>
+                        </div>
+                        <p class="color-desc">杏子成熟的橙黄色，香甜诱人。</p>
+                    </div>
+                </div>
+
+                <!-- 北瓜黄 -->
+                <div class="yellow-card" style="--card-index: 70;">
+                    <div class="color-block" style="background-color: var(--beiguahuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">北瓜黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #fc8c23</span>
+                            <span>RGB: 252,140,35</span>
+                        </div>
+                        <p class="color-desc">北瓜的橙黄色，质朴而温暖。</p>
+                    </div>
+                </div>
+
+                <!-- 金黄 -->
+                <div class="yellow-card" style="--card-index: 71;">
+                    <div class="color-block" style="background-color: var(--jinhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">金黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #f26b1f</span>
+                            <span>RGB: 242,107,31</span>
+                        </div>
+                        <p class="color-desc">黄金的赤黄色，尊贵而华丽。</p>
+                    </div>
+                </div>
+
+                <!-- 淡土黄 -->
+                <div class="yellow-card" style="--card-index: 72;">
+                    <div class="color-block" style="background-color: var(--dantuhuang);"></div>
+                    <div class="color-info">
+                        <h3 class="color-name">淡土黄</h3>
+                        <div class="color-code">
+                            <span>HEX: #8c4b31</span>
+                            <span>RGB: 140,75,49</span>
+                        </div>
+                        <p class="color-desc">浅淡的土黄色，质朴而自然。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="content-container">
+            <p class="footer-text">中国传统色彩美学 · 黄色系典藏</p>
+        </div>
+    </footer>
+
+    <!-- 动态设置卡片索引（可选） -->
+    <script>
+        // 自动为所有卡片设置索引（如果手动设置遗漏时备用）
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.yellow-card');
+            cards.forEach((card, index) => {
+                if (!card.style.getPropertyValue('--card-index')) {
+                    card.style.setProperty('--card-index', index + 1);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
